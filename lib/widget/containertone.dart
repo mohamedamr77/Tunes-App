@@ -17,7 +17,7 @@ class ContainerTone extends StatelessWidget{
       },
       child: Container(
         width: double.infinity,
-        height: 94.5,
+        height: ((MediaQuery.of(context).size.height)/7)-13.5,
         decoration: BoxDecoration(
           color: colorTone,
         ),
